@@ -1,3 +1,4 @@
+from lib.cli_tool import main
 """
 Entry point for the CLI tool.
 """
@@ -6,3 +7,6 @@ Entry point for the CLI tool.
 
 # TODO: Create an if __name__ == "__main__" block
 # Inside it, call main()
+
+if __name__ == "__main__" :
+    main()
